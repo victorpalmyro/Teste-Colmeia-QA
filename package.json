@@ -1,0 +1,21 @@
+{
+  "name": "teste-colmeia-qa",
+  "version": "1.0.0",
+  "description": "Identificar inconsistências e validar funcionalidades do sistema.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.5.4"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0"
+  }
+}

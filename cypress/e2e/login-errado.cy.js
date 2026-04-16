@@ -4,12 +4,12 @@ describe('Login - comportamento inconsistente', () => {
 
     cy.visit('https://teste-colmeia-qa.colmeia-corp.com')
 
-    // 🔐 Login válido
+    //  Login válido
     cy.get('#email').type('qa@test.com')
     cy.get('#password').type('1234567')
     cy.get('button[type="submit"]').click()
 
-    // 🔍 Validação inteligente
+    //  Validação inteligente
     cy.get('body').then(($body) => {
 
       const texto = $body.text()

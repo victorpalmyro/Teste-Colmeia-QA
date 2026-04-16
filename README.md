@@ -1,2 +1,10 @@
 # Teste-Colmeia-QA
-Testes Do Site disponibilizado pela Colmeia
+
+## Objetivo
+Identificar inconsistências e validar funcionalidades do sistema.
+
+## Abordagem
+- Testes exploratórios
+
+## Estrutura
+- /bugs → documentação dos problemas encontrados

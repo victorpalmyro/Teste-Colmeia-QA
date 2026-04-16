@@ -1,0 +1,32 @@
+### Bug 12 - Permite cadastro de bancos de dados com nomes duplicados
+
+**Descrição:**
+O sistema permite a criação de múltiplos bancos de dados com o mesmo nome, sem qualquer validação ou aviso de duplicidade.
+
+**Passos para reproduzir:**
+1. Realizar login no sistema
+2. Acessar a aba de campanhas
+3. Acessar banco de dados
+4. Acessar a funcionalidade de criação de banco de dados
+5. Criar um banco de dados com um nome específico (ex: "Teste")
+6. Repetir o processo criando outro banco com o mesmo nome "Teste"
+
+**Resultado esperado:**
+O sistema deve:
+- Impedir a criação de nomes duplicados **ou**
+- Alertar o usuário sobre a duplicidade, solicitando confirmação ou diferenciação
+
+**Resultado obtido:**
+O sistema permite a criação de múltiplos bancos de dados com o mesmo nome, sem qualquer validação ou aviso.
+
+**Impacto:**
+Pode gerar confusão na identificação dos registros, dificultar a gestão dos dados e aumentar o risco de erros operacionais.
+
+**Severidade:** Média  
+**Prioridade:** Média  
+
+**Ambiente:**
+- Navegador: Opera
+
+**Observação:**
+Não foi possível confirmar se a duplicidade de nomes é um comportamento esperado conforme a regra de negócio.

@@ -1,0 +1,24 @@
+### Bug 03 - Menu de usuário não abre, impedindo logout
+
+**Descrição:**
+Ao clicar no menu de usuário localizado no canto superior direito da tela, o sistema não exibe as opções disponíveis (como logout), impedindo o usuário de encerrar a sessão.
+
+**Passos para reproduzir:**
+1. Realizar login no sistema
+2. Localizar o menu de usuário no canto superior direito
+3. Clicar no ícone ou nome do usuário
+
+**Resultado esperado:**
+O sistema deve exibir um menu dropdown com opções como "Perfil", "Configurações" e "Sair", permitindo que o usuário realize logout.
+
+**Resultado obtido:**
+Nenhuma ação ocorre ao clicar no menu. As opções não são exibidas e o usuário não consegue realizar logout.
+
+**Impacto:**
+O usuário fica impossibilitado de encerrar a sessão, o que pode causar problemas de segurança e usabilidade, principalmente em dispositivos compartilhados.
+
+**Severidade:** Alta  
+**Prioridade:** Alta  
+
+**Ambiente:**
+- Navegador: Opera

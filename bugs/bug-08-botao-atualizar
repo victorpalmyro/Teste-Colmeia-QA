@@ -1,0 +1,26 @@
+### Bug 08 - Botão de atualizar lista remove todos os bancos de dados exibidos
+
+**Descrição:**
+Ao clicar no botão de atualização da lista de bancos de dados, todos os registros desaparecem da interface, sem qualquer feedback ao usuário.
+
+**Passos para reproduzir:**
+1. Realizar login no sistema
+2. Acessar a aba de campanhas
+3. clica em bancos de dados
+4. Confirmar que existem registros visíveis
+5. Clicar no botão "Atualizar" (refresh)
+
+**Resultado esperado:**
+O sistema deve atualizar a lista mantendo os dados existentes ou refletindo corretamente o estado atual dos registros.
+
+**Resultado obtido:**
+Todos os bancos de dados desaparecem da listagem após a ação de atualizar.
+
+**Impacto:**
+Pode indicar falha grave na atualização de dados ou inconsistência de exibição, gerando risco de perda de confiança e possível perda de informação.
+
+**Severidade:** Alta  
+**Prioridade:** Alta  
+
+**Ambiente:**
+- Navegador: Opera

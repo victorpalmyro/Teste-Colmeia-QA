@@ -1,0 +1,28 @@
+### Bug 14 - Bancos de dados desaparecem após acessar Colmeia Forms
+
+**Descrição:**
+Após criar bancos de dados na listagem, ao acessar a seção "Colmeia Forms" e retornar, os registros previamente criados não são mais exibidos.
+
+**Passos para reproduzir:**
+1. Realizar login no sistema
+2. Acessar a funcionalidade de bancos de dados
+3. Criar um ou mais bancos de dados
+4. Confirmar que os registros aparecem na listagem
+5. Navegar até a seção "Colmeia Forms"
+6. Retornar para a listagem de bancos de dados
+
+**Resultado esperado:**
+Os bancos de dados criados devem permanecer visíveis na listagem após navegação entre seções.
+
+**Resultado obtido:**
+Os bancos de dados desaparecem da listagem após acessar o Colmeia Forms.
+
+**Impacto:**
+Indica possível perda de dados ou falha grave de persistência/estado, comprometendo a confiabilidade do sistema e a integridade das informações.
+
+**Severidade:** Crítica  
+**Prioridade:** Alta  
+
+**Ambiente:**
+- Navegador: Opera
+

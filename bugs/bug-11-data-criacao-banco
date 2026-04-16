@@ -1,0 +1,27 @@
+### Bug 11 - Data de criação exibida incorretamente (diferença de dia)
+
+**Descrição:**
+Ao criar um banco de dados em determinado horário, a data de criação exibida pelo sistema apresenta um dia diferente do momento real da criação.
+
+**Passos para reproduzir:**
+1. Realizar login no sistema
+2. Acessar a aba de campanhas
+3. Acessar banco de dados
+4. Criar um novo banco de dados 
+5. Verificar a data de criação exibida na listagem 
+
+**Resultado esperado:**
+O sistema deve exibir a data de criação correspondente ao horário local do usuário (ex: dia 15 às 22:35).
+
+**Resultado obtido:**
+O sistema exibe a data como dia 16, divergindo do horário real em que o registro foi criado.
+
+**Impacto:**
+Pode causar inconsistências em auditorias, rastreabilidade e relatórios, além de confundir o usuário quanto ao momento real da criação.
+
+**Severidade:** Média  
+**Prioridade:** Média  
+
+**Ambiente:**
+- Navegador: Opera
+

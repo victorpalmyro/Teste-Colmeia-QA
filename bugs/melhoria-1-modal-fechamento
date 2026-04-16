@@ -1,0 +1,26 @@
+### Melhoria 01 - Modal de criação de banco fecha ao clicar fora
+
+**Descrição:**
+Ao iniciar a criação de um banco de dados, o campo/modal de inserção de nome é fechado automaticamente ao clicar fora da área, interrompendo o fluxo do usuário.
+
+**Passos para reproduzir:**
+1. Realizar login no sistema
+2. Clicar em "Criar banco de dados"
+3. Aguardar a exibição do campo/modal para inserção do nome
+4. Clicar fora da área do modal
+
+**Comportamento atual:**
+O modal é fechado imediatamente, sem confirmação ou aviso, interrompendo o processo de criação.
+
+**Comportamento esperado:**
+O sistema deve:
+- Manter o modal aberto **ou**
+- Solicitar confirmação antes de fechar, evitando perda de dados inseridos
+
+**Impacto:**
+Pode causar frustração ao usuário, especialmente caso já tenha iniciado o preenchimento, resultando em perda de informação e retrabalho.
+
+**Prioridade:** Média  
+
+**Ambiente:**
+- Navegador: Opera

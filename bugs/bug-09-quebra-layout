@@ -1,0 +1,32 @@
+### Bug 09 - Nome de banco de dados muito longo quebra a interface
+
+**Descrição:**
+Ao inserir um nome muito extenso para um banco de dados, a interface do sistema é comprometida, causando quebra de layout e prejudicando a visualização dos elementos na tela.
+
+**Passos para reproduzir:**
+1. Realizar login no sistema
+2. Acessar a aba de campanhas
+3. Acessar banco de dados
+4. clicar em criar
+5. Inserir um nome extremamente longo (ex: +200 caracteres)
+6. Salvar o banco de dados
+
+**Resultado esperado:**
+O sistema deve:
+- Limitar a quantidade de caracteres permitidos **ou**
+- Tratar corretamente a exibição do texto (quebra de linha, truncamento, scroll, etc.)
+
+**Resultado obtido:**
+A interface é quebrada após a criação, com elementos desalinhados ou fora da tela, dificultando a navegação.
+
+**Impacto:**
+Prejudica a usabilidade do sistema e pode afetar outras funcionalidades da interface devido à quebra de layout.
+
+**Severidade:** Média  
+**Prioridade:** Média  
+
+**Ambiente:**
+- Navegador: Opera
+
+**Observação:**
+Não há validação aparente de limite de caracteres no campo de nome.

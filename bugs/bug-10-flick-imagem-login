@@ -1,0 +1,25 @@
+### Bug 10 - Flicker na imagem ao atualizar a tela de login
+
+**Descrição:**
+Ao atualizar a página de login, ocorre um breve flicker (piscar) na imagem exibida, indicando possível problema no carregamento ou renderização do elemento.
+
+**Passos para reproduzir:**
+1. Acessar a página de login
+2. Atualizar a página (F5 ou botão de refresh do navegador)
+3. Observar a imagem presente na tela durante o carregamento
+
+**Resultado esperado:**
+A imagem deve ser carregada de forma suave, sem flicker ou alterações visuais bruscas.
+
+**Resultado obtido:**
+A imagem apresenta um flicker (pisca rapidamente) durante o carregamento da página.
+
+**Impacto:**
+Afeta a experiência visual do usuário, podendo transmitir sensação de baixa qualidade ou instabilidade da interface.
+
+**Severidade:** Baixa  
+**Prioridade:** Baixa  
+
+**Ambiente:**
+- Navegador: Opera
+

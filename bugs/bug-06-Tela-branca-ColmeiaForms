@@ -1,0 +1,27 @@
+### Bug 06 - Tela em branco ao acessar Colmeia Forms pela campanha
+
+**Descrição:**
+Ao acessar o Colmeia Forms através do menu lateral dentro da seção de campanhas, o sistema realiza a navegação corretamente, porém exibe uma tela em branco sem conteúdo.
+
+**Passos para reproduzir:**
+1. Realizar login no sistema
+2. Acessar a seção de campanhas
+3. No menu lateral, clicar na opção "Colmeia Forms"
+
+**Resultado esperado:**
+O sistema deve carregar a página do Colmeia Forms com todos os elementos e informações corretamente exibidos.
+
+**Resultado obtido:**
+O sistema redireciona para a página esperada, porém apresenta uma tela em branco sem carregamento de conteúdo.
+
+**Impacto:**
+O usuário não consegue utilizar a funcionalidade de Colmeia Forms, comprometendo o fluxo de trabalho dentro da campanha.
+
+**Severidade:** Alta  
+**Prioridade:** Alta  
+
+**Ambiente:**
+- Navegador: Opera
+
+**Observação:**
+A navegação ocorre normalmente (URL alterada), porém o conteúdo da página não é renderizado.

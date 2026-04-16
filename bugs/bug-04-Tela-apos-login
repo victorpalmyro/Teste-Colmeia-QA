@@ -1,0 +1,27 @@
+### Bug 04 - Tela em branco após login com menu lateral visível
+
+**Descrição:**
+Após realizar login no sistema, o usuário é direcionado para uma tela em branco, contendo apenas o menu lateral esquerdo, sem conteúdo principal exibido.
+
+**Passos para reproduzir:**
+1. Acessar a página de login
+2. Inserir credenciais válidas
+3. Clicar em "Entrar"
+
+**Resultado esperado:**
+O sistema deve redirecionar o usuário para a página inicial (dashboard ou área principal), exibindo corretamente o conteúdo da aplicação.
+
+**Resultado obtido:**
+O sistema apresenta uma tela em branco, exibindo apenas o menu lateral esquerdo, sem carregamento do conteúdo principal.
+
+**Impacto:**
+Compromete a experiência do usuário, que não consegue visualizar ou interagir com as funcionalidades do sistema após o login.
+
+**Severidade:** Alta  
+**Prioridade:** Alta  
+
+**Ambiente:**
+- Navegador: Opera
+
+**Observação:**
+Não foi possível confirmar se este é o comportamento esperado, porém a ausência de conteúdo prejudica a navegação e usabilidade do sistema.

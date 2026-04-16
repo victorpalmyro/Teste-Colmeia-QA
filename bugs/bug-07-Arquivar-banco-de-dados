@@ -1,0 +1,34 @@
+### Bug 07 - Ação de arquivar banco de dados não apresenta feedback e remove registro
+
+**Descrição:**
+Ao tentar arquivar um banco de dados criado, o sistema não apresenta qualquer feedback visual ou técnico (network/console), e o registro desaparece da listagem, indicando possível exclusão ao invés de arquivamento.
+
+**Passos para reproduzir:**
+1. Realizar login no sistema
+2. acessar a aba de campanhas 
+3. Criar ou acessar um banco de dados existente
+4. Localizar a opção "Arquivar"
+5. Clicar no botão de arquivar
+
+**Resultado esperado:**
+O sistema deve:
+- Executar a ação de arquivamento
+- Exibir confirmação visual de que o banco foi arquivado
+- Manter o registro acessível em uma seção de itens arquivados 
+
+**Resultado obtido:**
+- Nenhuma requisição visível é identificada no network
+- Nenhum erro ou log é exibido no console
+- O banco de dados desaparece da listagem principal após a ação
+
+**Impacto:**
+Pode indicar exclusão indevida de dados ou falta de transparência na ação executada, gerando risco de perda de informação e baixa confiabilidade do sistema.
+
+**Severidade:** Alta  
+**Prioridade:** Alta  
+
+**Ambiente:**
+- Navegador: Opera
+
+**Observação:**
+Não foi possível confirmar se o registro foi arquivado corretamente ou excluído permanentemente, pois não há feedback ou área visível de itens arquivados. (Ao que parece foi excluido) 

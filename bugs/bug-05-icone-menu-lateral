@@ -1,0 +1,25 @@
+### Bug 05 - Ícone no menu lateral sem identificação ou tooltip
+
+**Descrição:**
+O ícone de megafone presente no menu lateral não possui qualquer identificação textual ou tooltip ao passar o mouse, dificultando a compreensão da sua funcionalidade.
+
+**Passos para reproduzir:**
+1. Acessar o sistema logado
+2. Localizar o menu lateral esquerdo
+3. Identificar o ícone de megafone
+4. Passar o mouse sobre o ícone
+
+**Resultado esperado:**
+O sistema deve exibir um tooltip ou rótulo informando a funcionalidade do ícone (ex: "Notificações", "Avisos", etc.), garantindo melhor usabilidade e acessibilidade.
+
+**Resultado obtido:**
+Nenhuma informação é exibida ao passar o mouse sobre o ícone, não sendo possível identificar sua função.
+
+**Impacto:**
+Prejudica a usabilidade e acessibilidade do sistema, especialmente para novos usuários, que não conseguem entender a finalidade do ícone.
+
+**Severidade:** Baixa  
+**Prioridade:** Média  
+
+**Ambiente:**
+- Navegador: Opera

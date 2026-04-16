@@ -1,0 +1,31 @@
+### Bug 13 - Lista de bancos de dados sem paginação ou rolagem
+
+**Descrição:**
+Ao criar múltiplos bancos de dados, a listagem não apresenta paginação nem barra de rolagem, impedindo a visualização completa dos registros.
+
+**Passos para reproduzir:**
+1. Realizar login no sistema
+2. Acessar a aba de campanhas
+3. Acessar banco de dados
+4. Criar diversos bancos de dados (ex: 10 ou mais)
+5. Observar a listagem exibida na tela
+
+**Resultado esperado:**
+O sistema deve:
+- Exibir barra de rolagem **ou**
+- Implementar paginação para navegação entre os registros
+
+**Resultado obtido:**
+A listagem não apresenta rolagem nem paginação, impossibilitando visualizar todos os bancos de dados cadastrados.
+
+**Impacto:**
+Compromete a usabilidade e a gestão dos dados, dificultando o acesso a registros e podendo causar perda de controle sobre os bancos criados.
+
+**Severidade:** Média  
+**Prioridade:** Média  
+
+**Ambiente:**
+- Navegador: Opera
+
+**Observação:**
+O problema se torna mais evidente conforme aumenta a quantidade de registros.
